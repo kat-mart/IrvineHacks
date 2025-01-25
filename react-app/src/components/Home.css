@@ -1,0 +1,40 @@
+.home-header {
+    text-align: center;
+    margin-right: 10vw;
+    margin-bottom: 30px;
+}
+
+.container {
+    margin-left: 30vw;
+}
+
+.calender-container {
+    margin-right: 10vw;
+    margin-top: 20px;
+}
+
+.add-event-form {
+    
+}
+
+.fc-list-view {
+    font-family: 'Arial', sans-serif;
+    font-size: 20px;
+}
+
+.fc-list-item {
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    margin-bottom: 5px;
+    padding: 10px;
+}
+
+.fc-toolbar-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.fc-button-primary {
+    background-color: #0e901d;
+    color: rgb(192, 214, 251);
+}

@@ -15,6 +15,9 @@ export default function Navbar() {
                 <li>
                     <Link to='/Report'>Report</Link>
                 </li>
+                <li>
+                    <Link to='/Symptom'>Symptom</Link>
+                </li>
             </ul>
         </nav>
     );
