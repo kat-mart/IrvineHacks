@@ -4,6 +4,7 @@ import { useState } from 'react';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
 import Report from './components/Report';
+import Symptom from './components/Symptom';
 
 function App() {
   const [reports, setReports] = useState([]);
