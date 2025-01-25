@@ -1,0 +1,63 @@
+.container {
+    margin-right: 10vw;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 50px;
+}
+
+.symptom-header {
+    text-align: center;
+    margin-right: 10vw;
+    margin-bottom: 30px;
+}
+
+.post-op {
+    margin-top: 20px;
+    padding: 100px;
+    border: 3px solid;
+}
+
+.post-op1 {
+    border: 3px solid;
+    padding: 15px;
+    border-radius: 25px;
+    width: 125px;
+    height: 75px;
+    text-align: right;
+}
+
+.post-op :hover {
+    background-color: blanchedalmond;
+}
+
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .popup-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+    position: relative;
+  }
+  
+  .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+  }
