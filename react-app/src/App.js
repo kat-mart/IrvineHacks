@@ -6,13 +6,15 @@ import Home from './components/Home';
 import Report from './components/Report';
 
 function App() {
+  const [reports, setReports] = useState([]);
+  
   return (
     <div>
         <Navbar />
           <Routes>
               <Route path='/' element={<Home />} />
               <Route path='/Home' element={<Home />} />
-              <Route path='/Report' element={<Report />} />
+              <Route path='/Report' element={<Report reports={reports} setReports={setReports} />} />
           </Routes>
     </div>
   );

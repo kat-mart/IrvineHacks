@@ -1,0 +1,30 @@
+.container {
+    margin-left: 30vw;
+}
+
+.report-header {
+    text-align: left;
+}
+
+.text-editor {
+    width: 70%; 
+}
+
+.reports {
+    list-style-type: none; 
+    border: 2px solid #ccc;   
+    padding: 2rem;
+    margin-bottom: 2rem;                           
+    border-radius: 3px;         
+    background-color: #f9f9f9;  
+}
+
+.replies {
+    list-style-type: none; 
+    border: 2px solid #ccc;   
+    padding: 2rem;
+    margin-bottom: 2rem;                           
+    border-radius: 3px;         
+    background-color: #f9f9f9;  
+    margin-left: 5%;
+}
