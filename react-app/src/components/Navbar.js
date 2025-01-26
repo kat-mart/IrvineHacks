@@ -10,6 +10,10 @@ export default function Navbar() {
         setIsOpen(!isOpen); // Toggle the nav visibility
     };
 
+    const closeNav = () => {
+        setIsOpen(false); // Close the nav when a link is clicked
+    };
+
     return (
         <>
             {/* Hamburger Button outside of the nav */}
@@ -27,19 +31,19 @@ export default function Navbar() {
                 </div>
                 <ul>
                     <li>
-                        <Link to='/Profile'>Profile</Link>
+                        <Link to='/Profile' onClick={closeNav}>Profile</Link>
                     </li>
                     <li>
-                        <Link to='/Home'>Home</Link>
+                        <Link to='/Home' onClick={closeNav}>Home</Link>
                     </li>
                     <li>
-                        <Link to='/Report'>Report</Link>
+                        <Link to='/Report' onClick={closeNav}>Report</Link>
                     </li>
                     <li>
-                        <Link to='/Symptom'>Symptoms</Link>
+                        <Link to='/Symptom' onClick={closeNav}>Symptoms</Link>
                     </li>
                     <li>
-                        <Link to='/HealthTool'>Health Tool</Link>
+                        <Link to='/HealthTool' onClick={closeNav}>Health Tool</Link>
                     </li>
                 </ul>
             </nav>

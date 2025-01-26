@@ -68,3 +68,42 @@
     margin-top: 30px;
     margin-bottom: 20px;
 }
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    .container {
+        margin-left: 10vw;  
+    }
+
+    .profile-header {
+        margin-top: 5vh;
+    }
+
+    .patient-contents {
+        padding: 20px; 
+    }
+
+    .inline-container {
+        flex-direction: column;  
+        align-items: flex-start;
+    }
+
+    .inline-container h3,
+    .inline-container p {
+        font-size: 1rem;  
+        margin-right: 0;
+    }
+
+    .inline-container input {
+        width: 100%;  
+        margin-bottom: 10px;  
+    }
+
+    .inline-container button {
+        width: 100%; 
+    }
+
+    .medical-container {
+        padding: 20px;  
+    }
+}

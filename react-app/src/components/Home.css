@@ -45,3 +45,52 @@
 .new-event-text {
     padding: 10px;
 }
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    .home-header {
+        font-size: 32px;  
+        margin-right: 5vw; 
+        margin-bottom: 20px;  
+    }
+
+    .container {
+        margin-left: 5vw; 
+    }
+
+    .calender-container {
+        flex: 1; 
+        padding: 8px; 
+        width: 125%;
+        overflow: auto; 
+        margin-top: 10px; 
+        margin-right: 10vw;
+    }
+    
+    .add-event-form {
+        margin-top: 5vw;
+        margin-right: 5vw;
+        margin-left: 4vw;  
+    }
+
+    .fc-list-view {
+        font-size: 16px;  
+    }
+
+    .fc-list-item {
+        padding: 8px;  
+    }
+
+    .fc-toolbar-title {
+        font-size: 15px; 
+    }
+
+    .fc-button-primary {
+        font-size: 0.9rem; 
+        padding: 8px 14px;  
+    }
+
+    .new-event-text {
+        padding: 8px;
+    }
+}
