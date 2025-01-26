@@ -4,22 +4,67 @@
 
 .profile-header {
     text-align: left;
-    margin-bottom: 10vh;
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+}
+
+.patient-contents {
+    border: 3px solid #ddd;
+    border-radius: 15px;
+    padding: 30px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
 }
 
 .inline-container {
     display: flex;
     align-items: center;
+    margin-bottom: 20px;
 }
 
 .inline-container h3 {
-    margin-right: 10px;
+    margin-right: 20px;
+    font-weight: bold;
+    color: #333;
+    font-size: 1.1rem;
 }
 
 .inline-container p {
-    margin-right: 10px;
+    margin-right: 20px;
+    font-size: 1.1rem;
+    color: #555;
 }
 
 .inline-container input {
-    margin-right: 10px;
+    padding: 8px;
+    font-size: 1rem;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+}
+
+.inline-container button {
+    background-color: #76b6ff;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.inline-container button:hover {
+    background-color: #29669c;
+}
+
+.inline-container:last-child {
+    margin-bottom: 0;
+}
+
+.medical-container {
+    padding: 30px;
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
