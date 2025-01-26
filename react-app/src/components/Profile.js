@@ -10,13 +10,12 @@ export default function Profile() {
     const [editPhone, setEditPhone] = useState(null);
     const [allergies, setAllergies] = useState('');  
     const [newAllergy, setNewAllergy] = useState(''); 
+    const [contact, setContact] = useState('000-000-0000')
+    const [editContact, setEditContact] = useState(null);
 
     const [surgeries, setSurgeries] = useState([]);  // Array to hold surgery details
     const [newSurgery, setNewSurgery] = useState('');
     const [surgeryDate, setSurgeryDate] = useState('');
-
-    const [contacts, setContacts] = useState([]); // hold name and phone number
-    const [contactName, setContactName] = useState('');
 
     const toggleEditName = () => {
         setEditName(!editName); 
@@ -28,6 +27,10 @@ export default function Profile() {
 
     const toggleEditPhone = () => {
         setEditPhone(!editPhone); 
+    };
+
+    const toggleEditContact = () => {
+        setEditContact(!editContact); 
     };
 
     const handleAddAllergy = () => {
@@ -152,17 +155,20 @@ export default function Profile() {
             </div>
             <div className='patient-contents'>
                 <h2>Emergency Contact</h2>
-                <div className='medical-child'>
-                    <h3>Emergency Contact #1</h3>
-                    {setContactName ? (
+                <div className='inline-container'>
+                    <h3>Emergency Contact: </h3>
+                    {editContact ? (
                         <input
                             type="text"
-                            value={name}
-                            onChange={(e) => setContactName(e.target.value)}
+                            value={contact}
+                            onChange={(e) => setContact(e.target.value)}
                         />
                     ) : (
-                        <p>{name}</p>
+                        <p>{contact}</p>
                     )}
+                    <button onClick={toggleEditContact}>
+                        {editContact ? 'Save' : 'Edit'}
+                    </button>
                 </div>
             </div>
         </div>
