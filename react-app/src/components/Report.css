@@ -4,8 +4,8 @@
 
 .report-header {
     text-align: left;
+    margin-bottom: 1rem;
 }
-
 .text-editor {
     width: 70%; 
 }
@@ -15,8 +15,11 @@
     border: 2px solid #ccc;   
     padding: 2rem;
     margin-bottom: 2rem;                           
-    border-radius: 3px;         
-    background-color: #f9f9f9;  
+    border-radius: 15px;         
+    background-color: #f9f9f9;
+    width: 50vw;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Subtle shadow for depth */
+
 }
 
 .replies {
@@ -24,7 +27,59 @@
     border: 2px solid #ccc;   
     padding: 2rem;
     margin-bottom: 2rem;                           
-    border-radius: 3px;         
+    border-radius: 15px;         
     background-color: #f9f9f9;  
     margin-left: 5%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Subtle shadow for depth */
+}
+
+.report-button {
+    border: 2px solid;
+    padding: 10px;
+    border-radius: 25px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    background-color: antiquewhite;
+    margin-bottom: 20px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.report-button:hover {
+    background-color: rgb(230, 185, 205);
+    transform: translateY(-3px); 
+    cursor: pointer;
+}
+
+.reply-button {
+    border: 2px solid;
+    padding: 10px;
+    border-radius: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    background-color: rgb(207, 207, 207);
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 75px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.reply-button:hover {
+    background-color: rgb(185, 230, 186);
+    transform: translateY(-3px);  /* Lift effect */
+    cursor: pointer;
+}
+
+p {
+    color: #555;  /* Softer text color for readability */
+    line-height: 1.6;  /* Better line height for text readability */
+}
+
+small {
+    font-size: 0.9rem;
+    color: #777;  /* Lighter text for timestamps */
+}
+
+ul {
+    padding-left: 0;
+    margin: 0;
 }
