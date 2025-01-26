@@ -31,10 +31,10 @@ export default function Navbar() {
                 </div>
                 <ul>
                     <li>
-                        <Link to='/Profile' onClick={closeNav}>Profile</Link>
+                        <Link to='/Home' onClick={closeNav}>Home</Link>
                     </li>
                     <li>
-                        <Link to='/Home' onClick={closeNav}>Home</Link>
+                        <Link to='/Profile' onClick={closeNav}>Profile</Link>
                     </li>
                     <li>
                         <Link to='/Report' onClick={closeNav}>Report</Link>
