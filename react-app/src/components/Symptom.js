@@ -61,10 +61,19 @@ export default function Symptom() {
         </div>
       )}
       <h2>Experiencing any general unwellness?</h2>
-      <p>Chat with a doctor about your concerns</p>
-        <div className='symptoms-contact'>
-            
-        </div>
+      <p>Chat with a doctor about your concerns.</p>
+      <h3>Dr. Evelyn Thorne, M.D., PhD</h3>
+      <h4>Neurology & Cognitive Disorders</h4>
+      <ul>
+        <li><b>Email:</b> evelyn.thorne@silverwoodmed.com</li>
+        <li><b>Phone Number:</b> +44 20 7946 1234</li>
+        <li><b>Office Location:</b> 
+          <br/>Silverwood Haven
+          <br/>23 Moonlit Crescent
+          <br/>Highland Vale, SH3 7QT
+          <br/>United Kingdom
+        </li>
+      </ul>
     </div>
   );
 }
