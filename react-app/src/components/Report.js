@@ -56,7 +56,8 @@ export default function Report({ reports, setReports }) {
     return (
         <>
         <div className='container'>
-            <h1 className='report-header'>Report</h1>
+            <h1 className='report-header'>Report a Medical Incident</h1>
+            <h3>Share your experiences to help reduce mistakes and protect patients.</h3>
             <button onClick={handleAdd}>+ New Report</button>
             <div className='text-editor'>
                 {add && 

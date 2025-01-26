@@ -10,6 +10,9 @@ export default function Navbar() {
             </div>
             <ul>
                 <li>
+                    <Link to='/Profile'>Profile</Link>
+                </li>
+                <li>
                     <Link to='/Home'>Home</Link>
                 </li>
                 <li>
@@ -17,6 +20,9 @@ export default function Navbar() {
                 </li>
                 <li>
                     <Link to='/Symptom'>Symptom</Link>
+                </li>
+                <li>
+                    <Link to='/HealthTool'>Health Tool</Link>
                 </li>
             </ul>
         </nav>

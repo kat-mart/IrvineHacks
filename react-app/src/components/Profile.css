@@ -1,0 +1,25 @@
+.container {
+    margin-left: 30vw;
+}
+
+.profile-header {
+    text-align: left;
+    margin-bottom: 10vh;
+}
+
+.inline-container {
+    display: flex;
+    align-items: center;
+}
+
+.inline-container h3 {
+    margin-right: 10px;
+}
+
+.inline-container p {
+    margin-right: 10px;
+}
+
+.inline-container input {
+    margin-right: 10px;
+}

@@ -5,6 +5,8 @@ import Navbar from './components/Navbar';
 import Home from './components/Home';
 import Report from './components/Report';
 import Symptom from './components/Symptom';
+import Profile from './components/Profile';
+import HealthTool from './components/HealthTool';
 
 function App() {
   const [reports, setReports] = useState([]);
@@ -17,6 +19,8 @@ function App() {
               <Route path='/Home' element={<Home />} />
               <Route path='/Report' element={<Report reports={reports} setReports={setReports} />} />
               <Route path='/Symptom' element={<Symptom />}/>
+              <Route path='/Profile' element={<Profile />}/>
+              <Route path='/HealthTool' element={<HealthTool />}/>
           </Routes>
     </div>
   );
