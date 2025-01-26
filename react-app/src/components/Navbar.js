@@ -6,7 +6,7 @@ export default function Navbar() {
         <nav className="nav">
             <div class="header">
                 {/* <img src={logo} className="logo" alt="Logo" /> */}
-                <div className="site-title">Site Title</div>
+                <div className="site-title">Client Care</div>
             </div>
             <ul>
                 <li>
@@ -19,7 +19,7 @@ export default function Navbar() {
                     <Link to='/Report'>Report</Link>
                 </li>
                 <li>
-                    <Link to='/Symptom'>Symptom</Link>
+                    <Link to='/Symptom'>Symptoms</Link>
                 </li>
                 <li>
                     <Link to='/HealthTool'>Health Tool</Link>
