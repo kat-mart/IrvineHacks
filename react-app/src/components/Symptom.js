@@ -60,8 +60,11 @@ export default function Symptom() {
           </div>
         </div>
       )}
+
       <h2>Experiencing any general unwellness?</h2>
       <p>Chat with a doctor about your concerns.</p>
+      <a className='link' href="https://www.zocdoc.com/primary-care-doctors" target="_blank" rel="noopener noreferrer">Find a Doctor</a>
+
       <h3>Dr. Evelyn Thorne, M.D., PhD</h3>
       <h4>Neurology & Cognitive Disorders</h4>
       <ul>
@@ -72,6 +75,19 @@ export default function Symptom() {
           <br/>23 Moonlit Crescent
           <br/>Highland Vale, SH3 7QT
           <br/>United Kingdom
+        </li>
+      </ul>
+
+      <h3>Dr. Alexander Hayes, M.D., PhD</h3>
+      <h4>Cardiology & Heart Health</h4>
+      <ul>
+        <li><b>Email:</b> alexander.hayes@cardiohealthclinic.com</li>
+        <li><b>Phone Number:</b> +1 202 555 6789</li>
+        <li><b>Office Location:</b> 
+          <br/>CardioHealth Clinic
+          <br/>150 Wellness Drive
+          <br/>Silver Springs, MD 20901
+          <br/>United States
         </li>
       </ul>
     </div>
