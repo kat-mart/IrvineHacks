@@ -4,10 +4,8 @@ import { Link } from 'react-router-dom';
 import penguin from './images/penguin2.png';
 
 export default function Navbar() {
-    // State to manage the visibility of the navigation menu
     const [isOpen, setIsOpen] = useState(false);
 
-    // Function to toggle the navigation menu
     const toggleNav = () => {
         setIsOpen(!isOpen); // Toggle the nav visibility
     };
