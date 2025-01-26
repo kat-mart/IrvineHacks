@@ -1,7 +1,10 @@
 .home-header {
     text-align: center;
     margin-right: 10vw;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
+    font-size: 40px;
+    font-style: oblique;
+    font-weight: bold;
 }
 
 .container {
@@ -10,11 +13,11 @@
 
 .calender-container {
     margin-right: 10vw;
-    margin-top: 20px;
+    margin-top: 50px;
 }
 
 .add-event-form {
-    
+    margin-left: 10vw;
 }
 
 .fc-list-view {
@@ -37,4 +40,8 @@
 .fc-button-primary {
     background-color: #0e901d;
     color: rgb(192, 214, 251);
+}
+
+.new-event-text {
+    padding: 10px;
 }

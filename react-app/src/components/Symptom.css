@@ -5,6 +5,26 @@
     margin-top: 50px;
 }
 
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.grid-item {
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.grid-item:hover {
+    background-color: #ffffb6;
+}
+
 .symptom-header {
     text-align: center;
     margin-right: 10vw;
@@ -14,16 +34,6 @@
 .post-op {
     margin-top: 20px;
     padding: 100px;
-    border: 3px solid;
-}
-
-.post-op1 {
-    border: 3px solid;
-    padding: 15px;
-    border-radius: 25px;
-    width: 125px;
-    height: 75px;
-    text-align: right;
 }
 
 .post-op :hover {
@@ -36,7 +46,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    background-color: rgba(0, 0, 0, 0.5); 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -61,3 +71,12 @@
     font-size: 20px;
     cursor: pointer;
   }
+
+.symptoms-contact {
+    padding: 25px;
+    width: 200px;
+}
+
+.photo {
+    width: 100px;
+}

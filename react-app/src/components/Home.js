@@ -55,9 +55,9 @@ export default function Home() {
 
     return (
         <div className='container'>
-            <h1 className='home-header'>Welcome</h1>
+            <div className='home-header'>Upcoming events</div>
+                <p2>Add a new event:</p2>
             <div className='add-event-form'>
-                <h3>Add a new event!</h3>
                 <input
                     type="text"
                     placeholder="Event Title"
