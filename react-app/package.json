@@ -3,10 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-<<<<<<< Updated upstream
     "@fullcalendar/daygrid": "^6.1.15",
-=======
->>>>>>> Stashed changes
     "@fullcalendar/interaction": "^6.1.15",
     "@fullcalendar/list": "^6.1.15",
     "@fullcalendar/react": "^6.1.15",
